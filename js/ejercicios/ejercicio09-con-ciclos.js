@@ -8,8 +8,8 @@ pantalla.innerHTML=`Vocales de la palabra ${frase}: ` ;
 console.log(frase.length);
 
 for( let contador= 0; contador < frase.length; contador++ ){
- if(frase.charAt(0)=== "a" || frase.charAt(0)=== "e" ||frase.charAt(0)=== "i" ||frase.charAt(0)=== "o" ||frase.charAt(0)=== "u"){
-  pantalla.innerHTML+= frase.charAt(0)     
+ if(frase.charAt(contador)=== "a" || frase.charAt(contador)=== "e" ||frase.charAt(contador)=== "i" ||frase.charAt(contador)=== "o" ||frase.charAt(contador)=== "u"){
+  pantalla.innerHTML+= frase.charAt(contador)     
 
  }   
 
