@@ -27,10 +27,3 @@ if (num % 7 === 0) {
 }
 
 alert(mensaje);
-
-// Mostramos el resultado final
-/*if (esDivisible) {
-    alert(mensaje);
-} else {
-    alert("El número no es divisible por 2, 3, 5 ni 7");
-}*/
